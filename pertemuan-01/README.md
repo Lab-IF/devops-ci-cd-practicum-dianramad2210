@@ -1,53 +1,51 @@
-# Laporan Praktikum DevOps — Pertemuan 01
+🎭 Pertemuan 01: DevOps Culture & Principles
+📋 Tujuan Pembelajaran
+Setelah menyelesaikan praktikum ini, mahasiswa mampu:
 
-## 👤 Identitas
-- Nama: Dian Ramadhani  
-- NIM: 105841116323  
+Memahami filosofi dan budaya DevOps
+Mengenal DevOps lifecycle dan praktik utama
+Mengidentifikasi perbedaan antara Development dan Operations tradisional
+Setup development environment untuk praktikum
+📚 Materi
+Apa itu DevOps?
+DevOps adalah kombinasi dari Development dan Operations yang menekankan kolaborasi, otomatisasi, dan continuous improvement dalam software delivery.
 
----
+Core Principles
+Culture - Kolaborasi antara Dev dan Ops
+Automation - Otomatisasi proses repetitif
+Lean - Eliminasi waste dalam workflow
+Measurement - Mengukur performa dan kualitas
+Sharing - Berbagi pengetahuan dan tanggung jawab
+DevOps Lifecycle
+    ┌─────────────────────────────────────────────────┐
+    │                                                 │
+    │   Plan → Code → Build → Test → Release → Deploy│
+    │     ↑                                      │    │
+    │     │                                      ↓    │
+    │     └──── Operate ← Monitor ←──────────────┘    │
+    │                                                 │
+    └─────────────────────────────────────────────────┘
+🔧 Tugas Praktikum
+Task 1: Setup Development Environment
+Install Git dan konfigurasi user
+Install Docker Desktop
+Install Visual Studio Code dengan extensions:
+Docker
+GitLens
+YAML
+Buat akun GitHub (jika belum ada)
+Task 2: Dokumentasi
+Buat laporan singkat yang berisi:
 
-## 📌 Pengertian DevOps
-
-DevOps adalah pendekatan dalam pengembangan perangkat lunak yang menggabungkan tim development (Dev) dan operations (Ops) untuk meningkatkan kolaborasi, otomatisasi, serta kecepatan dalam proses pengiriman software. DevOps menekankan praktik seperti continuous integration, continuous delivery, dan automation infrastructure.
-
----
-
-## ⭐ Mengapa DevOps Penting
-
-DevOps penting karena mampu mempercepat siklus pengembangan perangkat lunak sekaligus meningkatkan kualitas dan stabilitas sistem. Dengan DevOps, proses build, testing, dan deployment dapat dilakukan secara otomatis sehingga mengurangi kesalahan manual. Selain itu, DevOps meningkatkan kolaborasi antar tim, mempercepat time-to-market, serta membuat sistem lebih mudah diskalakan dan dipelihara.
-
----
-
-## 🖥️ Environment yang Telah Disiapkan
-
-### ✅ Git
-
-Git telah berhasil diinstal dan dikonfigurasi pada sistem.
-
-![Git Version](../screenshots/git-version.png)
-
----
-
-### ✅ Docker Desktop
-
-Docker Desktop telah terpasang dan berjalan dengan baik.
-
-![Docker Version](../screenshots/docker-version.png)
-
----
-
-### ✅ Visual Studio Code
-
-Visual Studio Code telah diinstal beserta extensions yang diperlukan:
-
-- Docker  
-- GitLens  
-- YAML  
-
-![VSCode Setup](../screenshots/vscode-setup.png)
-
----
-
-## ✅ Kesimpulan
-
-Lingkungan pengembangan DevOps telah berhasil disiapkan dengan menginstal Git, Docker Desktop, dan Visual Studio Code beserta extensions pendukung. Environment ini siap digunakan untuk praktikum DevOps selanjutnya.
+Penjelasan tentang DevOps dan mengapa penting
+Screenshot environment yang sudah di-setup
+Reflection: Apa harapan Anda dari praktikum ini?
+📤 Submission
+📁 NIM_Nama_Pertemuan01/
+├── 📄 README.md (Laporan)
+├── 📁 screenshots/
+│   ├── git-version.png
+│   ├── docker-version.png
+│   └── vscode-setup.png
+└── 📄 reflection.md
+Deadline: Sebelum pertemuan berikutnya
