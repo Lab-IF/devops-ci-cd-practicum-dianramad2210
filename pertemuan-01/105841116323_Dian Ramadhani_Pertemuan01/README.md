@@ -24,7 +24,7 @@ DevOps penting karena mampu mempercepat siklus pengembangan perangkat lunak seka
 
 Git telah berhasil diinstal dan dikonfigurasi pada sistem.
 
-![Git Version](../screenshots/git-version.png)
+![Git Version](screenshots/git-version.png)
 
 ---
 
@@ -32,7 +32,7 @@ Git telah berhasil diinstal dan dikonfigurasi pada sistem.
 
 Docker Desktop telah terpasang dan berjalan dengan baik.
 
-![Docker Version](../screenshots/docker-version.png)
+![Docker Version](screenshots/docker-version.png)
 
 ---
 
@@ -44,7 +44,7 @@ Visual Studio Code telah diinstal beserta extensions yang diperlukan:
 - GitLens  
 - YAML  
 
-![VSCode Setup](../screenshots/vscode-setup.png)
+![VSCode Setup](screenshots/vscode-setup.png)
 
 ---
 
