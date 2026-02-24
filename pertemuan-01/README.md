@@ -1,60 +1,69 @@
-# 🔀 Pertemuan 02: Git Advanced - Branching Strategies
+# 🎭 Pertemuan 01: DevOps Culture & Principles
 
 ## 📋 Tujuan Pembelajaran
 
 Setelah menyelesaikan praktikum ini, mahasiswa mampu:
-- Memahami berbagai branching strategies
-- Mengimplementasikan GitFlow workflow
-- Melakukan merge, rebase, dan resolve conflicts
-- Mengelola branch secara efektif
+- Memahami filosofi dan budaya DevOps
+- Mengenal DevOps lifecycle dan praktik utama
+- Mengidentifikasi perbedaan antara Development dan Operations tradisional
+- Setup development environment untuk praktikum
 
 ## 📚 Materi
 
-### Branching Strategies
+### Apa itu DevOps?
 
-1. **GitFlow** - Feature, develop, release, hotfix branches
-2. **GitHub Flow** - Simple feature branch workflow
-3. **Trunk-Based Development** - Short-lived feature branches
-4. **GitLab Flow** - Environment branches
+DevOps adalah kombinasi dari **Development** dan **Operations** yang menekankan kolaborasi, otomatisasi, dan continuous improvement dalam software delivery.
 
-### GitFlow Branches
+### Core Principles
+
+1. **Culture** - Kolaborasi antara Dev dan Ops
+2. **Automation** - Otomatisasi proses repetitif
+3. **Lean** - Eliminasi waste dalam workflow
+4. **Measurement** - Mengukur performa dan kualitas
+5. **Sharing** - Berbagi pengetahuan dan tanggung jawab
+
+### DevOps Lifecycle
 
 ```
-main (production)     ●───────────────●───────────────●
-                       ↑               ↑               ↑
-release               ●───────────────●               │
-                       ↑                               │
-develop     ●─●─●─●─●─●───●─●─●─●─●─●─●───●─●─●─●─●─●
-             ↑   ↑       ↑           ↑
-feature     ●───●       ●───────────●
+    ┌─────────────────────────────────────────────────┐
+    │                                                 │
+    │   Plan → Code → Build → Test → Release → Deploy│
+    │     ↑                                      │    │
+    │     │                                      ↓    │
+    │     └──── Operate ← Monitor ←──────────────┘    │
+    │                                                 │
+    └─────────────────────────────────────────────────┘
 ```
 
 ## 🔧 Tugas Praktikum
 
-### Task 1: Implement GitFlow
+### Task 1: Setup Development Environment
 
-1. Initialize repository dengan GitFlow
-2. Create feature branch
-3. Develop feature dan commit
-4. Merge ke develop
-5. Create release branch
-6. Merge ke main
+1. Install Git dan konfigurasi user
+2. Install Docker Desktop
+3. Install Visual Studio Code dengan extensions:
+   - Docker
+   - GitLens
+   - YAML
+4. Buat akun GitHub (jika belum ada)
 
-### Task 2: Resolve Merge Conflicts
+### Task 2: Dokumentasi
 
-1. Create conflicting changes
-2. Resolve conflicts manually
-3. Document resolution process
+Buat laporan singkat yang berisi:
+- Penjelasan tentang DevOps dan mengapa penting
+- Screenshot environment yang sudah di-setup
+- Reflection: Apa harapan Anda dari praktikum ini?
 
 ## 📤 Submission
 
 ```
-📁 NIM_Nama_Pertemuan02/
-├── 📄 README.md
+📁 NIM_Nama_Pertemuan01/
+├── 📄 README.md (Laporan)
 ├── 📁 screenshots/
-│   ├── gitflow-branches.png
-│   └── merge-conflict-resolution.png
-└── 📁 repository-link.txt
+│   ├── git-version.png
+│   ├── docker-version.png
+│   └── vscode-setup.png
+└── 📄 reflection.md
 ```
 
 **Deadline:** Sebelum pertemuan berikutnya
